@@ -1,4 +1,4 @@
-# Augurya public status page â€” deliberately separate infrastructure from
+# Augurya public status page — deliberately separate infrastructure from
 # phantom-platform (own repo, own CI, own failure domain: if the main repo's
 # CI is ever degraded, this monitoring must not share fate with it).
 #
@@ -6,7 +6,7 @@
 # (staff shell, Quant Lab) are excluded by design -- this page is for
 # customers, not staff, and exposing internal-tool uptime publicly would leak
 # operational detail with no customer benefit.
-owner: amitb641
+owner: augurya
 repo: augurya-status
 
 sites:
