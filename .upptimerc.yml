@@ -6,7 +6,7 @@
 # (staff shell, Quant Lab) are excluded by design -- this page is for
 # customers, not staff, and exposing internal-tool uptime publicly would leak
 # operational detail with no customer benefit.
-owner: augurya
+owner: augurya-q
 repo: augurya-status
 
 sites:

@@ -5,7 +5,7 @@
 The site is built and deploying correctly to the `gh-pages` branch (GitHub Pages
 is enabled, sourced from `gh-pages`, and correctly picked up the custom domain
 from the site's own CNAME file). It is **not yet reachable** — `status.augurya.com`
-needs a DNS CNAME record pointing at `amitb641.github.io`, added wherever
+needs a DNS CNAME record pointing at `augurya-q.github.io`, added wherever
 Augurya's other DNS is managed. This is the one remaining manual step; nothing
 else is blocked on it.
 
@@ -13,7 +13,7 @@ Once the CNAME resolves, also flip HTTPS enforcement on (GitHub can't issue a
 cert for the custom domain until DNS actually resolves to Pages):
 
 ```
-gh api -X PUT repos/amitb641/augurya-status/pages -f https_enforced=true
+gh api -X PUT repos/augurya-q/augurya-status/pages -f https_enforced=true
 ```
 
 ## Weekly template auto-sync (`update-template.yml` / the "Update template"
